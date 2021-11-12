@@ -1,0 +1,28 @@
+.fieldContainer {
+  margin: 10px 0;
+}
+.field,
+.fieldError {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 20px 0;
+  border-radius: 3px;
+  border: none;
+  position: relative;
+}
+.loginField,
+.signUpField {
+  width: 100%;
+  position: relative;
+}
+.fieldError {
+  border: 2px solid red;
+}
+.notError {
+  border: 2px solid blue;
+}
+@media screen and (min-width: 576px) {
+  .signUpField {
+    width: 48%;
+  }
+}
