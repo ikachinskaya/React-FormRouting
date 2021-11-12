@@ -1,0 +1,33 @@
+@import "../../common.module.scss";
+.container {
+  margin-bottom: 100px;
+}
+.heading {
+  font-size: 40px;
+  text-align: center;
+}
+.text {
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.fieldContainer {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapperError {
+  width: 100%;
+  position: relative;
+  margin: 10px 0;
+}
+.termsOfServise {
+  text-align: center;
+}
+.link {
+  color: #fff;
+}
+@media screen and (min-width: 420px) {
+  .container {
+    max-width: 400px;
+  }
+}
