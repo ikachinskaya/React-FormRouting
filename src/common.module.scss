@@ -1,0 +1,21 @@
+.dFlex {
+  display: flex;
+}
+.container {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.heading {
+  text-transform: uppercase;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 550px;
+  }
+}
