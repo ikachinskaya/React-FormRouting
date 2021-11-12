@@ -1,0 +1,23 @@
+@import "../../common.module.scss";
+.header {
+  padding: 50px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgWrapper {
+  width: 160px;
+}
+.link {
+  color: #fff;
+  padding: 5px 15px;
+  border: 1px solid white;
+  border-radius: 3%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (min-width: 420px) {
+  .link {
+    padding: 10px 30px;
+  }
+}
