@@ -14,6 +14,7 @@ const initialState = {
 
 const submitHandler = (values, formikBag) => {
   alert("Вы успешно зарегистрировались");
+  formikBag.resetForm();
 };
 const Login = () => {
   return (

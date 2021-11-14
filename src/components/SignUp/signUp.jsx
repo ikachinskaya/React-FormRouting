@@ -20,6 +20,7 @@ const initialState = {
 };
 const submitHandler = (values, formikBag) => {
   alert("Вы успешно создали аккаунт");
+  formikBag.resetForm();
 };
 const SignUp = () => {
   return (
